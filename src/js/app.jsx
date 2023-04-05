@@ -4,4 +4,4 @@ import Container from './ToDoContainer';
 
 const root = createRoot(document.getElementById('app'));
 
-root.render(Container());
+root.render(<Container />);
